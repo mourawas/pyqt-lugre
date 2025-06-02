@@ -38,6 +38,9 @@ Where:
 - `dz/dt = v - z|v|/g(v)`
 - `g(v) = (Fc + (Fs - Fc)exp(-(v/vs)²))/σ₀`
 
+From:
+> Canudas de Wit, C., Olsson, H., Astrom, K. J., & Lischinsky, P. (1995). A new model for control of systems with friction. IEEE Transactions on automatic control, 40(3), 419-425.
+
 ## Parameters
 
 - **sigma_0**: Bristle stiffness
@@ -55,8 +58,3 @@ You need these data files in a `DATAM/` folder:
 - `mobile_speedM4.npy`
 
 Plus the `function.py` module with the data loading function.
-
-## The Model
-
-Based on the LuGre friction model from:
-> Canudas de Wit, C., Olsson, H., Astrom, K. J., & Lischinsky, P. (1995). A new model for control of systems with friction. IEEE Transactions on automatic control, 40(3), 419-425.
