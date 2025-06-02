@@ -46,5 +46,3 @@ Plus the `function.py` module with the data loading function.
 
 Based on the LuGre friction model from:
 > Canudas de Wit, C., Olsson, H., Astrom, K. J., & Lischinsky, P. (1995). A new model for control of systems with friction. IEEE Transactions on automatic control, 40(3), 419-425.
-
-That's it! 🎉
