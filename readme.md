@@ -1,6 +1,6 @@
 # LuGre Friction Model Parameter Tuner
 
-A simple tool to interactively adjust LuGre friction model parameters and see the results in real-time.
+A simple tool in PyQt5 to interactively adjust LuGre friction model parameters and see the results in real-time.
 
 ## What it does
 
@@ -23,6 +23,20 @@ python lugre_interactive.py
 - **Arrow keys**: ←→ to switch parameters, ↑↓ to finetune values
 - **F11**: Fullscreen
 - **Sliders**: Click and drag to adjust
+
+## LuGre Friction Model
+
+The LuGre model computes friction force using:
+
+```
+F = σ₀z + σ₁(dz/dt) + σ₂v
+```
+
+Where:
+- `z` is the average bristle deflection (internal state)
+- `v` is the relative velocity
+- `dz/dt = v - z|v|/g(v)`
+- `g(v) = (Fc + (Fs - Fc)exp(-(v/vs)²))/σ₀`
 
 ## Parameters
 
