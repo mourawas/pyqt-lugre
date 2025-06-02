@@ -20,7 +20,7 @@ python lugre_interactive.py
 
 ## Controls
 
-- **Arrow keys**: ←→ to switch parameters, ↑↓ to adjust values
+- **Arrow keys**: ←→ to switch parameters, ↑↓ to finetune values
 - **F11**: Fullscreen
 - **Sliders**: Click and drag to adjust
 
